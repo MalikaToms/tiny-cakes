@@ -1,0 +1,22 @@
+body {
+	background: white url('images/backgroungimg.jpg') repeat top;
+}
+.logo{
+	
+}
+
+.Menu {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #65defb;
+}
+
+img {
+	display: flex;
+}
+.Footer {
+	text-align: center;
+	color: #808080;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+

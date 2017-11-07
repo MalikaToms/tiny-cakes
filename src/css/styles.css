@@ -1,6 +1,8 @@
 body {
-	background: white url('images/backgroungimg.jpg') repeat top;
+	background-image: url('src/images/bakery-work.jpg');
+	background-repeat: repeat;
 }
+
 .logo{
 	
 }
@@ -12,6 +14,7 @@ body {
 
 img {
 	display: flex;
+	justify-content: space-between;
 }
 .Footer {
 	text-align: center;

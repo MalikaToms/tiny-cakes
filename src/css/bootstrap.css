@@ -5701,6 +5701,10 @@ img {
   color: #0d7af3;
   font-family: 'Josefin Sans', sans-serif; }
 
+.logo {
+  padding-top: 30px;
+  padding-bottom: 22px; }
+
 .gallery {
   padding-top: 250px; }
 
@@ -5708,6 +5712,8 @@ i {
   color: #0d7af3;
   font-size: 14px; }
 
-a.hover {
-  background-color: #808080;
-  color: #fff; }
+.shop-image {
+  /*fix width for mobile */
+  padding-left: 250px; }
+  .shop-image img {
+    height: 400px; }

@@ -5684,3 +5684,30 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
+
+body {
+  background-image: url("images/background.jpg") repeat; }
+
+.navigation {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #0d7af3; }
+
+img {
+  display: flex;
+  justify-content: space-between; }
+
+.Footer {
+  text-align: center;
+  color: #0d7af3;
+  font-family: 'Josefin Sans', sans-serif; }
+
+.gallery {
+  padding-top: 250px; }
+
+i {
+  color: #0d7af3;
+  font-size: 14px; }
+
+a.hover {
+  background-color: #808080;
+  color: #fff; }

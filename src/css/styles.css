@@ -1,25 +1,6 @@
 body {
-	background-image: url('src/images/bakery-work.jpg');
-	background-repeat: repeat;
-}
 
-.logo{
+}
+footer {
 	
 }
-
-.Menu {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #65defb;
-}
-
-img {
-	display: flex;
-	justify-content: space-between;
-}
-.Footer {
-	text-align: center;
-	color: #808080;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-

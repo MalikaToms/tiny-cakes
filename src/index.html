@@ -3,13 +3,14 @@
 <head>
 	<title>Tiny Cakes Website</title>
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/src/css/styles.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 
 <body>
 	<div class="container-fluid">
-		<div class="logo">
-			<img src="images/tc-logo.png">
+		<div class="logo row">
+			<img src="images/tc-text.png">
 		</div>	
 	
 		<!--Main Navigation-->
@@ -17,16 +18,16 @@
 			<div class="navigation">
 				<ul class="nav nav-pills nav-justified">
 				  <li class="nav-item">
-				    <a class="nav-link" href="#">Hello</a>
-				  </li>
-				  <li class="nav-item">
 				    <a class="nav-link" href="#">About</a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" href="#">Store</a>
+				    <a class="nav-link" href="#">Contact Us</a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" href="#">Contact</a>
+				    <a class="nav-link" href="#">Menu</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Press</a>
 				  </li>
 				</ul>
 			</div>
@@ -42,20 +43,23 @@
 				    <a class="nav-link" href="#">Gallery</a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" href="#">Menu</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Press</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Cart</a>
+				    <a class="nav-link" href="#">
+				    	Cart<i class="fa-li fa fa-shopping-cart fa-2x pull-right" aria-hidden="true"></i> </a>
 				  </li>
 				</ul>
 			</div>
 		</div>
 		<hr style="border:none; background-color:#E2CB67; color: #E2CB67; height: 3px;">
+		<div class="shop-image row">
+			<div class="col-12 col-lg-6">
+				<img src="images/bakery-work.jpg">
+			</div>	
+			<div class="col-12 col-lg-6">
+				<img src="images/storefront.jpg">
+			</div>
+		</div>
 		<!--gallery of images max 8 (2 rows 4 across)-->
-		<div class="Gallery">
+		<div class="gallery">
 			<div class="row">
 				<div class="col-12 col-lg-3">
 					<img src="http://via.placeholder.com/400x200" class="img-fluid" alt="Responsive image">
@@ -89,7 +93,7 @@
 		</div>	
 		<hr style="border:none; background-color:#E2CB67; color: #E2CB67; height: 3px;">
 		<div class="Footer">
-			<p>Copyright TinyCakes 2017</p>
+			<p>&copy Copyright TinyCakes 2017</p>
 		</div>
 		
 	</div>
